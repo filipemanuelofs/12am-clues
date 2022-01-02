@@ -98,6 +98,7 @@ body {
   background-color: white;
   position: relative;
   border-radius: 6px;
+  box-shadow: 0 0 10px #a9a9a9;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

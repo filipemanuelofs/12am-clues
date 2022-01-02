@@ -41,10 +41,10 @@ body {
   position: absolute;
   width: 25px;
   height: 25px;
-  background-color: white;
+  background-color: #D9534F;
   right: -12px;
-  border: 1px solid #a9a9a9;
-  top: 15px;
+  border: 1px solid #9c3b38;
+  top: 20px;
   border-radius: 50%;
   z-index: 1;
 }

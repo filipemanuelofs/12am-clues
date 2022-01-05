@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+.spacebob {
+    background-color: #3a60cb;
+    min-height:1em;
+    width:5px;
+    opacity:1;
+}
+
 /* Set a background color */
 body {
   background-color: #d4d4d4;

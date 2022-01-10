@@ -3472,14 +3472,24 @@
                   style="text-decoration: none"
                 >
                   <figure class="figure">
-                    <img
-                      src="https://i.imgur.com/pPGRzeB.jpg"
-                      class="figure-img img-fluid rounded"
-                      width="114"
-                      height="64"
-                      alt=""
-                      loading="lazy"
-                    />
+                    <picture>
+                      <source
+                        srcset="./img/possible-variant-character.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="./img/possible-variant-character.jpg"
+                        type="image/jpg"
+                      />
+                      <img
+                        src="./img/possible-variant-character.jpg"
+                        class="figure-img img-fluid rounded"
+                        width="114"
+                        height="64"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </picture>
                   </figure>
                 </a>
               </td>

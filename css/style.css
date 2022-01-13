@@ -183,3 +183,8 @@ body {
   height: 50px;
   background-color: none;
 }
+
+.menu {
+  background-color: #e2e2e2; 
+  box-shadow: 0 0 5px #a9a9a9;
+}

@@ -178,3 +178,8 @@ body {
 .fs-14 {
   font-size: 14px;
 }
+
+.link {
+  height: 50px;
+  background-color: none;
+}

@@ -188,3 +188,7 @@ body {
   background-color: #f1f1f1;
   box-shadow: 0 0 5px #a9a9a9;
 }
+
+.dont-loot {
+  color: #9c3b38;
+}

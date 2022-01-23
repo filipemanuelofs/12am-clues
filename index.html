@@ -35,7 +35,7 @@
   </head>
   <body>
     <!-- container -->
-    <div class="container">
+    <div id="top" class="container">
       <!-- menu -->
       <nav
         class="navbar sticky-top navbar-expand-lg navbar-light rounded-bottom menu"
@@ -109,6 +109,14 @@
                 >
               </li>
             </ul>
+            <span class="navbar-text">
+              <a href="#top" type="button">
+                <i class="fa fa-arrow-up me-2" aria-hidden="true"></i>
+              </a>
+              <a href="#down" type="button">
+                <i class="fa fa-arrow-down ms-2" aria-hidden="true"></i
+              ></a>
+            </span>
           </div>
         </div>
       </nav>
@@ -4494,7 +4502,7 @@
     </div>
     <!-- /container -->
     <!-- footer -->
-    <footer class="footer">
+    <footer id="down" class="footer">
       <div class="container">
         <div class="row">
           <div class="col-4 text-start fs-14">
@@ -4520,14 +4528,12 @@
               <input
                 type="image"
                 src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif"
-                border="0"
                 name="submit"
                 title="PayPal - The safer, easier way to pay online!"
                 alt="Donate with PayPal button"
               />
               <img
                 alt=""
-                border="0"
                 src="https://www.paypal.com/en_BR/i/scr/pixel.gif"
                 width="1"
                 height="1"

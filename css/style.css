@@ -7,7 +7,7 @@ body {
 }
 
 img:hover {
-  filter: saturate(160%);
+  filter: saturate(130%);
 }
 
 .timeline {
@@ -46,6 +46,11 @@ img:hover {
   top: 20px;
   border-radius: 50%;
   z-index: 1;
+  transition: transform .2s;
+}
+
+.cont:hover::after {
+  transform: scale(1.2);
 }
 
 .left {

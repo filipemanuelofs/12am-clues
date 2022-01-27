@@ -7,7 +7,7 @@ body {
 }
 
 img:hover {
-  filter: saturate(130%);
+  filter: saturate(160%);
 }
 
 .timeline {

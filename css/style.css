@@ -193,7 +193,8 @@ body {
 }
 
 .menu {
-  background-color: #f1f1f1;
+  background-color: rgba(241, 241, 241, 0.75);
+  backdrop-filter: blur(12px);
   box-shadow: 0 0 5px #a9a9a9;
 }
 

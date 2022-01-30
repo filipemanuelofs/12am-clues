@@ -28,14 +28,14 @@ img:hover {
   border-radius: 5px;
 }
 
-.timeline-post {
+.cont {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 
-.timeline-post::after {
+.cont::after {
   content: "";
   position: absolute;
   width: 25px;
@@ -49,19 +49,19 @@ img:hover {
   transition: transform 0.2s;
 }
 
-.timeline-post:hover::after {
+.cont:hover::after {
   transform: scale(1.2);
 }
 
-.post-left {
+.left {
   left: 0;
 }
 
-.post-right {
+.right {
   left: 50%;
 }
 
-.post-left::before {
+.left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -74,7 +74,7 @@ img:hover {
   border-color: transparent transparent transparent white;
 }
 
-.post-right::before {
+.right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -87,7 +87,7 @@ img:hover {
   border-color: transparent white transparent transparent;
 }
 
-.post-right::after {
+.right::after {
   left: -12px;
 }
 
@@ -104,25 +104,25 @@ img:hover {
     left: 31px;
   }
 
-  .timeline-post {
+  .cont {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
 
-  .timeline-post::before {
+  .cont::before {
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
 
-  .post-left::after,
-  .post-right::after {
+  .left::after,
+  .right::after {
     left: 18px;
   }
 
-  .post-right {
+  .right {
     left: 0%;
   }
 

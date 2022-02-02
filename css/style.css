@@ -10,6 +10,16 @@ img:hover {
   filter: saturate(160%);
 }
 
+::-moz-selection {
+  color: #f1f1f1;
+  background: #232323;
+}
+
+::selection {
+  color: #f1f1f1;
+  background: #232323;
+}
+
 .timeline {
   position: relative;
   max-width: 1200px;

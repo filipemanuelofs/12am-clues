@@ -3423,18 +3423,21 @@
       <!-- /timeline -->
       <!-- ez mode -->
       <div id="ez-mode" class="link"></div>
-      <div class="row">
-        <h3>
-          EZ Mode or
-          <a
-            href="https://app.diagrams.net/#G1BuLjdWj15TIvgJ6KcLSGTtydMyMtfeUC"
-            target="_blank"
-            rel="noopener"
-            >Flowchart</a
-          >
-        </h3>
+        <div class="rounded p-2" style="background-color: rgba(241, 241, 241, 0.25);">
+          <h3>
+            EZ Mode or
+            <a
+              href="https://app.diagrams.net/#G1BuLjdWj15TIvgJ6KcLSGTtydMyMtfeUC"
+              target="_blank"
+              rel="noopener"
+              >Flowchart</a
+            >
+          </h3>
+          <span class="small text-muted" style="font-size: small;">The paths in bold are the ones with the best loot.</span>
+        </div>
         <!-- SECTOR 1 -->
         <!-- ////////////////////////////// -->
+        <div class="row">
         <div class="col-md-4 mt-2">
           <div class="accordion accordion-flush" id="ezmode-sector1-accordion">
             <div class="accordion-item">
@@ -3447,7 +3450,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector1-path1-collapse"
                 >
-                  Sector 1 - Path #1
+                  <b>Sector 1 - Path #1</b>
                 </button>
               </h2>
               <div
@@ -3484,7 +3487,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector1-path2-collapse"
                 >
-                  Sector 1 - Path #2
+                  <b>Sector 1 - Path #2</b>
                 </button>
               </h2>
               <div
@@ -3597,7 +3600,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector1-path5-collapse"
                 >
-                  Sector 1 - Path #5
+                  <b>Sector 1 - Path #5</b>
                 </button>
               </h2>
               <div
@@ -3633,7 +3636,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector1-path6-collapse"
                 >
-                  Sector 1 - Path #6
+                  <b>Sector 1 - Path #6</b>
                 </button>
               </h2>
               <div
@@ -3744,7 +3747,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector1-path9-collapse"
                 >
-                  Sector 1 - Path #9
+                  <b>Sector 1 - Path #9</b>
                 </button>
               </h2>
               <div
@@ -3905,7 +3908,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector2-path1-collapse"
                 >
-                  Sector 2 - Path #1
+                  <b>Sector 2 - Path #1</b>
                 </button>
               </h2>
               <div
@@ -3925,9 +3928,9 @@
                     <li>Loot</li>
                     <li>Move to Escalators</li>
                     <li class="dont-loot">
-                      Ascend on Left <b>(DON'T LOOT)</b>
+                      Ascend on Left <b>(Don't loot)</b>
                     </li>
-                    <li class="dont-loot">Engage Threat <b>(DON'T LOOT)</b></li>
+                    <li class="dont-loot">Engage Threat <b>(Don't loot)</b></li>
                     <li>Continue Straight</li>
                     <li>Engage Nearest Duo <b>(NEED Suppressed .45)</b></li>
                     <li>Engage Second Duo</li>
@@ -3973,12 +3976,15 @@
                     <li>Loot</li>
                     <li>Move to Escalators</li>
                     <li class="dont-loot">
-                      Ascend on Left <b>(DON'T LOOT)</b>
+                      Ascend on Left <b>(Don't loot)</b>
                     </li>
-                    <li class="dont-loot">Engage Threat <b>(DON'T LOOT)</b></li>
+                    <li class="dont-loot">Engage Threat <b>(Don't loot)</b></li>
                     <li>Continue Straight</li>
-                    <li>Engage Nearest Duo <b>(NEED Suppressed .45)</b></li>
+                    <li>Loot</li>
+                    <li>Engage Nearest Duo <b>(Need Suppressed .45)</b></li>
+                    <li>Loot</li>
                     <li>Engage Second Duo</li>
+                    <li>Loot</li>
                     <li>Push Left Elevator</li>
                   </ul>
                   <div class="alert alert-success fs-14" role="alert">
@@ -4002,7 +4008,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector2-path3-collapse"
                 >
-                  Sector 2 - Path #3
+                  <b>Sector 2 - Path #3</b>
                 </button>
               </h2>
               <div
@@ -4021,13 +4027,15 @@
                   <ul class="path-timeline">
                     <li>Loot</li>
                     <li class="dont-loot">
-                      Check Guild Shops <b>(DON'T LOOT)</b>
+                      Check Guild Shops <b>(Don't loot)</b>
                     </li>
-                    <li class="dont-loot">Bash Lock <b>(DON'T LOOT)</b></li>
-                    <li class="dont-loot">Rush Stairs <b>(DON'T LOOT)</b></li>
+                    <li class="dont-loot">Bash Lock <b>(Don't loot)</b></li>
+                    <li class="dont-loot">Rush Stairs <b>(Don't loot)</b></li>
                     <li>Engage Top Floor</li>
-                    <li>Engage Distant Target</li>
+                    <li>Loot <b>(V7 Sniper)</b></li>
+                    <li>Engage Distant Target <b>(Need V7 Sniper)</b></li>
                     <li>Flank Around</li>
+                    <li>Loot </li>
                     <li>Helicopter Extraction</li>
                   </ul>
                   <div class="alert alert-success fs-14" role="alert">
@@ -4071,11 +4079,13 @@
                     <li>Loot</li>
                     <li>Move to Escalators</li>
                     <li class="dont-loot">
-                      Ascend on Left <b>(DON'T LOOT)</b>
+                      Ascend on Left <b>(Don't loot)</b>
                     </li>
-                    <li class="dont-loot">Engage Threat <b>(DON'T LOOT)</b></li>
+                    <li class="dont-loot">Engage Threat <b>(Don't loot)</b></li>
                     <li>Continue Straight</li>
-                    <li>Engage Nearest Duo <b>(NEED Suppressed .45)</b></li>
+                    <li>Loot</li>
+                    <li>Engage Nearest Duo <b>(Need Suppressed .45)</b></li>
+                    <li>Loot</li>
                     <li>Hold Position</li>
                   </ul>
                   <div class="alert alert-success fs-14" role="alert">
@@ -4106,7 +4116,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector4-path1-collapse"
                 >
-                  Sector 4 - Path #1
+                  <b>Sector 4 - Path #1</b>
                 </button>
               </h2>
               <div
@@ -4124,18 +4134,23 @@
                     >
                   </div>
                   <ul class="path-timeline">
+                    <li>Loot</li>
                     <li>Left Between Server Rack</li>
                     <li>Left Around Server Row</li>
                     <li>Disable 402</li>
+                    <li>Loot</li>
                     <li>Downstairs</li>
                     <li>Engage Claw</li>
                     <li>Bound Cover Across</li>
                     <li>Bound Cover to Claw</li>
+                    <li>Loot</li>
                     <li>Left Console</li>
                     <li>Disable 736</li>
+                    <li>Loot</li>
                     <li>Right Console</li>
                     <li>Disable 911</li>
                     <li>Disable 598</li>
+                    <li>Loot</li>
                   </ul>
                   <div class="alert alert-success fs-14" role="alert">
                     <span>
@@ -4203,7 +4218,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector4-path3-collapse"
                 >
-                  Sector 4 - Path #3
+                  <b>Sector 4 - Path #3</b>
                 </button>
               </h2>
               <div
@@ -4223,10 +4238,12 @@
                   <ul class="path-timeline">
                     <li>Examine Lit Console</li>
                     <li>Disable 114</li>
+                    <li>Loot</li>
                     <li>Hold at Pods</li>
                     <li>Hold Position</li>
                     <li>Push Exit Stairs</li>
                     <li>Hangar Exit</li>
+                    <li>Loot</li>
                     <li>Continue Up</li>
                     <li>Engage Far Left</li>
                     <li>Launch Jet</li>
@@ -4261,7 +4278,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector3-path1-collapse"
                 >
-                  Sector 3 - Path #1
+                  <b>Sector 3 - Path #1 - Violence</b>
                 </button>
               </h2>
               <div
@@ -4271,6 +4288,9 @@
                 data-bs-parent="#ezmode-sector3-accordion"
               >
                 <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    100% safe but you can only do once.
+                  </div>
                   <div class="alert alert-warning fs-14" role="alert">
                     <i>Need: VisorCortex - Moonlight (S2P3)</i>
                   </div>
@@ -4304,7 +4324,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector3-path2-collapse"
                 >
-                  Sector 3 - Path #2
+                <b>Sector 3 - Path #2 - Speed</b>
                 </button>
               </h2>
               <div
@@ -4314,6 +4334,9 @@
                 data-bs-parent="#ezmode-sector3-accordion"
               >
                 <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    100% safe but you can only do once.
+                  </div>
                   <div class="alert alert-warning fs-14" role="alert">
                     <i>Need: VisorCortex - Moonlight (S2P3)</i>
                   </div>
@@ -4345,7 +4368,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector3-path3-collapse"
                 >
-                  Sector 3 - Path #3
+                  <b>Sector 3 - Path #3 - Momentum</b>
                 </button>
               </h2>
               <div
@@ -4355,6 +4378,9 @@
                 data-bs-parent="#ezmode-sector3-accordion"
               >
                 <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    100% safe but you can only do once.
+                  </div>
                   <div class="alert alert-warning fs-14" role="alert">
                     <i>Need: VisorCortex - Moonlight (S2P3)</i>
                   </div>
@@ -4392,7 +4418,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector5-path1-collapse"
                 >
-                  Sector 5 - Path #1
+                  <b>Sector 5 - Path #1 - Violence</b>
                 </button>
               </h2>
               <div
@@ -4402,7 +4428,7 @@
                 data-bs-parent="#ezmode-sector5-accordion"
               >
                 <div class="accordion-body">
-                  <div class="alert alert-light fs-14" role="alert">
+                  <div class="alert alert-info fs-14" role="alert">
                     If you selected <b>Violence</b>.
                   </div>
                   <div class="alert alert-warning fs-14" role="alert">
@@ -4440,7 +4466,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector5-path2-collapse"
                 >
-                  Sector 5 - Path #2
+                  <b>Sector 5 - Path #2 - Speed</b>
                 </button>
               </h2>
               <div
@@ -4450,7 +4476,7 @@
                 data-bs-parent="#ezmode-sector5-accordion"
               >
                 <div class="accordion-body">
-                  <div class="alert alert-light fs-14" role="alert">
+                  <div class="alert alert-info fs-14" role="alert">
                     If you selected <b>Speed</b>.
                   </div>
                   <div class="alert alert-warning fs-14" role="alert">
@@ -4487,7 +4513,7 @@
                   aria-expanded="false"
                   aria-controls="ezmode-sector5-path3-collapse"
                 >
-                  Sector 5 - Path #3
+                  <b>Sector 5 - Path #3 - Momentum</b>
                 </button>
               </h2>
               <div
@@ -4497,7 +4523,7 @@
                 data-bs-parent="#ezmode-sector5-accordion"
               >
                 <div class="accordion-body">
-                  <div class="alert alert-light fs-14" role="alert">
+                  <div class="alert alert-info fs-14" role="alert">
                     If you selected <b>Momentum</b>.
                   </div>
                   <div class="alert alert-warning fs-14" role="alert">
@@ -4526,12 +4552,45 @@
             </div>
           </div>
         </div>
+        
+        <!-- <div class="col-md-4 mt-2">
+          <div class="accordion accordion-flush" id="ezmode-sector6-accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector6-path1">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector6-path1-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector6-path1-collapse"
+                >
+                  Sector 6
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector6-path1-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector6-path1"
+                data-bs-parent="#ezmode-sector6-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    Accessing {File Not Found} Sector /// 16% {Drop Time: 17/2/2022 00:00:01}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
       </div>
       <!-- /ez mode -->
       <!-- gallery -->
       <div id="gallery" class="link"></div>
-      <div class="mt-4">
+      <div class="rounded p-2" style="background-color: rgba(241, 241, 241, 0.25);">
         <h4>Sector's Gallery</h4>
+      </div>
+      <div class="mt-4">
         <table class="table table-sm">
           <thead>
             <tr>
@@ -5254,7 +5313,9 @@
             </tr>
           </tbody>
         </table>
-        <h4>Characters Gallery</h4>
+        <div class="rounded p-2" style="background-color: rgba(241, 241, 241, 0.25);">
+          <h4>Characters Gallery</h4>
+        </div>
         <table class="table table-sm">
           <thead>
             <tr>

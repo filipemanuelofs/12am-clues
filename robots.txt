@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: 
+Disallow: /README.md
+Disallow: /js/bootstrap.min.js
+Disallow: /js/bootstrap.min.js.map
+Disallow: /css/bootstrap-reboot.min.css
+Disallow: /css/bootstrap-reboot.min.css.map
+Disallow: /css/bootstrap.min.css
+Disallow: /css/bootstrap.min.css.map
+Sitemap: https://filipemanuelofs.github.io/12am-clues/sitemap.xml

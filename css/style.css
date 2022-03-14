@@ -234,6 +234,7 @@ img:hover {
 .symbol {
   cursor: pointer;
   text-decoration: none;
+  width: 32px;
 }
 
 .symbol:hover {

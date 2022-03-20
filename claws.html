@@ -28,6 +28,29 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
     <link rel="icon" type="image/svg+xml" href="./img/favicon/favicon.svg" />
     <link rel="manifest" href="./img/favicon/site.webmanifest" />
+    <script>
+      document.getElementById("cp_btn").addEventListener("click", copied);
+
+      function checkBrowserCompat() {
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+        var trident = ua.indexOf("Trident/");
+        if (msie > 0 || trident > 0) {
+          console.log("IE detected.");
+          window.location.replace("unsupported.html");
+        }
+      }
+
+      function copied() {
+        var copyText = document.getElementById("copypast");
+        var textArea = document.createElement("textarea");
+        textArea.value = copyText.textContent;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("Copy");
+        textArea.remove();
+      }
+    </script>
   </head>
   <body onload="checkBrowserCompat()">
     <!-- container -->
@@ -93,12 +116,16 @@
             <div class="alert alert-warning fs-14" role="alert">
               <i><strong>Note:</strong> ALL AIRDROP REWARDS FROM COMPLETING THIS HAVE BEEN TAKEN.<br>You can still complete the game if you wish and possibly receive some future rewards for your profile.</i>
             </div>
-            <h2>verify yo self</h2>            
+            <h2>Become a Pre-Variant</h2>            
             <p>To start: Make sure you are verified and have the pre-variant role in discord.</p>
-            <p>If you are not - follow these instructions.</p>
-            <h2>Instructions</h2>
-            <p>Once complete, you can start doing missions. DM the bot with 'M:\Sector1' then 'M:\StartMission'. You can follow the guides in the 'EZ MODE' tab on the spreadsheet or on the Timeline webpage to get all of the loot and get ready for the next sector.</p>
-            <p>If you die we all get penalised.</p>
+            <p>If you are not - follow these instructions  starting at `<strong>CLAWS, START HERE</strong>`</p>
+            <h3>Instructions</h3>
+            <ul>
+              <li>Phrases with <i class="bi bi-clipboard"></i> are the command you use to DM the bot</li>
+              <li>Once complete, you can start doing missions.</li>
+              <li>You can follow the guides in the 'EZ MODE' tab on the spreadsheet or on the Timeline webpage to get all of the loot and get ready for the next sector.</li>
+              <li>If you die we all get penalised.</li>
+            <ul>
           </div>
           <!-- dropdowns -->
           <div class="col-md-6 col-xs-8">
@@ -203,7 +230,7 @@
           <h6><em>Required: registration<br>(<a href="#">see CLAWS, START HERE</a>)</em></h6>
           <em>firm handshakes</em>
           <p>Welcome to the Existence. This is where you begin as a pre-variant.</p>
-          <p>For every sector, you will DM the bot <strong>m:\startmission</strong> and then the sector number. You complete a mission by following the prompt and reacting to the bot's messages.</p>
+          <p>For every sector, you will DM the bot <strong>m:\startmission</strong><i class="bi bi-clipboard"></i>  and then the sector number. You complete a mission by following the prompt and reacting to the bot's messages.</p>
           <h3>Instructions:</h3>
           <ul>
             <li>DM the bot:

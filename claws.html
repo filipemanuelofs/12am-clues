@@ -1,0 +1,2032 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="1800" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Filipe M." />
+    <meta
+      name="description"
+      content="This unofficial website was created to gather timeline of information found in the alternate reality game (ARG) by Midnight Society Studio."
+    />
+    <meta name="keywords" content="Space Bob, DrDisRespect, Midnight Society" />
+    <meta
+      name="google-site-verification"
+      content="pdwB-SH8w8DUREvBdwrLGrAD6-DH_s9OfCdJ7KUIvg4"
+    />
+
+    <title>AirDrop ### &mdash; Midnight Society</title>
+    <link rel="preconnect" href="https://images.squarespace-cdn.com" />
+    <link rel="preconnect" href="https://video.squarespace-cdn.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://i.imgur.com" />
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet"href="./css/bootstrap-reboot.min.css"type="text/css"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon/favicon.svg" />
+    <link rel="manifest" href="./img/favicon/site.webmanifest" />
+    <script>
+      document.getElementById("cp_btn").addEventListener("click", copied);
+
+      function checkBrowserCompat() {
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+        var trident = ua.indexOf("Trident/");
+        if (msie > 0 || trident > 0) {
+          console.log("IE detected.");
+          window.location.replace("unsupported.html");
+        }
+      }
+
+      function copied() {
+        var copyText = document.getElementById("copypast");
+        var textArea = document.createElement("textarea");
+        textArea.value = copyText.textContent;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand("Copy");
+        textArea.remove();
+      }
+    </script>
+  </head>
+  <body onload="checkBrowserCompat()">
+    <!-- container -->
+    <div id="top" class="container">
+      <!-- top menu -->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light rounded-bottom menu">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand fw-bolder"
+            href="#"
+            style="padding-top: 0 !important"
+            ><i class="bi bi-search"></i> Welcome to the Existence</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Back to Timeline</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">m:\verify</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectorone">Sector 1 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectortwo">Sector 2 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectorfour">Sector 4 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectorthree">Sector 3 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectorfive">Sector 5 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectorsix">Sector 6 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>          
+          </div>
+        </div>
+      </nav>
+      <!-- /top menu -->
+
+      <!-- ////////////////////////////// -->
+      <!-- BEGIN YOUR JOURNEY HERE -->
+      <!-- verify -->      
+      <div class="row">
+          <!-- PREVARIANT BITCHES -->
+          <div class="col-md-6 col-xs-8">
+            <div class="alert alert-warning fs-14" role="alert">
+              <i><strong>Note:</strong> ALL AIRDROP REWARDS FROM COMPLETING THIS HAVE BEEN TAKEN.<br>You can still complete the game if you wish and possibly receive some future rewards for your profile.</i>
+            </div>
+            <h2>Become a Pre-Variant</h2>            
+            <p>To start: Make sure you are verified and have the pre-variant role in discord.</p>
+            <p>If you are not - follow these instructions  starting at `<strong>CLAWS, START HERE</strong>`</p>
+            <h3>Instructions</h3>
+            <ul>
+              <li>Phrases with <i class="bi bi-clipboard"></i> are the command you use to DM the bot</li>
+              <li>Once complete, you can start doing missions.</li>
+              <li>You can follow the guides in the 'EZ MODE' tab on the spreadsheet or on the Timeline webpage to get all of the loot and get ready for the next sector.</li>
+              <li>If you die we all get penalised.</li>
+            <ul>
+          </div>
+          <!-- dropdowns -->
+          <div class="col-md-6 col-xs-8">
+            <div class="accordion accordion-flush" id="ezmode-verify-accordion">
+              <div class="accordion-item">
+                <!-- header text -->
+                <h2 class="accordion-header" id="ezmode-verify-v1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ezmode-verify-v1-collapse"
+                    aria-expanded="false"
+                    aria-controls="ezmode-verify-v1-collapse"
+                  >
+                    <b><span class="codetext">CLAWS, START HERE</span></b>
+                  </button>
+                </h2>
+                <div
+                  id="ezmode-verify-v1-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ezmode-verify-v1"
+                  data-bs-parent="#ezmode-verify-accordion"
+                >
+                  <div class="accordion-body">
+                    
+                    <!-- timeline looking steps -->
+                    <ul class="path-timeline">
+                      <li>Click on the Midnight Protocol bot announcement:  
+                        <br><em><strong>Get Claws role!</strong></em>
+                      </li>
+                      <li>You should now have access.
+                      </li>
+                      <li>You are now able to verify yourself as a <strong>Pre-Variant</strong>. (Go to m:\verify)</li>                      
+                      <li class="dont-loot"> Give the bot some time to make the appropriate changes.</li>
+                    </ul>                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <!-- header text -->
+                <h2 class="accordion-header" id="ezmode-verify-v2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ezmode-verify-v2-collapse"
+                    aria-expanded="false"
+                    aria-controls="ezmode-verify-v2-collapse"
+                  >
+                    <b><span class="codetext">m:\verify</span></b>
+                  </button>
+                </h2>
+                <div
+                  id="ezmode-verify-v2-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ezmode-verify-v2"
+                  data-bs-parent="#ezmode-verify-accordion"
+                >
+                  <div class="accordion-body">
+                    
+                    <!-- timeline looking steps -->
+                    <ul class="path-timeline">
+                      <li>On the Discord go to: 
+                        <br><em><strong>#midnight-protocol-spam</strong></em>
+                      </li>
+                      <li>Type in the following command: 
+                        <em><strong><span id="copypast" onclick="copied()">
+                          M:\Verify @YourDiscordUsername
+                        </span>
+                        <i class="bi bi-clipboard"></i>
+                      </strong></em>
+                        <br>(make sure you actually tag yourself in the message)
+                      </li>
+                      <li>You should now receive a DM from the MidnightProtocol bot asking your for a password.</li>
+                      <li>Once you get that DM reply to the bot with this password 
+                        <em><strong><span id="copypast" onclick="copied()">
+                          14421PCGSPD
+                        </span>
+                        <i class="bi bi-clipboard"></i>
+                      </strong></em></li>
+                      <li>You should now be a <strong>Pre-variant</strong> and be able to use any of the valid commands in the bots DM's.</li>                      
+                      <!-- <li class="dont-loot">red text <b>(Don't loot)</b></li>                       -->
+                    </ul>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <hr id="sectorone">
+
+      <!-- SECTOR 1 -->
+      <!-- ////////////////////////////// -->
+      <div class="row">
+        <!-- Sector 1 explained -->
+        <div class="col-md-6 col-xs-8">
+          <h3>Sector 1</h3>
+          <h6><em>Required: registration<br>(<a href="#">see CLAWS, START HERE</a>)</em></h6>
+          <em>firm handshakes</em>
+          <p>Welcome to the Existence. This is where you begin as a pre-variant.</p>
+          <p>For every sector, you will DM the bot <strong>m:\startmission</strong><i class="bi bi-clipboard"></i>  and then the sector number. You complete a mission by following the prompt and reacting to the bot's messages.</p>
+          <h3>Instructions:</h3>
+          <ul>
+            <li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\sector1
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\startmission
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>Click the green check to start the mission.</li>
+            <li>React with each button to complete the sector.</li>
+          </ul>
+
+          <h6>The paths in bold are the ones with the best/necessary loot.</h6>
+          <h6>Sector completion order is: 1, 2, 4, 3, 5 & 6.</h6>
+          <p>Don't forget the tacos for Space Bob. (You don't actually need the tacos.)</p>
+        </div>   
+        <div class="col-md-6 col xs-8">        
+        <!-- dropdowns     -->
+          <div class="accordion accordion-flush" id="ezmode-sector1-accordion">
+            <div class="accordion-item">              
+              <h2 class="accordion-header" id="ezmode-sector1-path1">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path1-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path1-collapse"
+                >
+                  <b>Sector 1 - Path #1</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path1-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path1"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+            
+                    <li>Loot (VisorCortex - Nikolai)</li>
+                    <li>Continue Straight</li>
+                    <li>Continue Straight</li>
+                    <li>Enter First Tunnel</li>
+                    <li>Continue Straight</li>
+                    <li>Continue Straight</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> VisorCortex - Nikolai, Cold Bloody Wrap,
+                      Warm Bloody Wrap, Spent 7.62 casings <br />
+                      <b>Loadout:</b> Bloody Bat, VisorCortex - Nikolai</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path2-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path2-collapse"
+                >
+                  <b>Sector 1 - Path #2</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path2-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path2"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Climb Ladder</li>
+                    <li>Enter Well Lit Room</li>
+                    <li>Call The Elevator</li>
+                    <li>Loot (VisorCortex - LordsofKarma)</li>
+                    <li>Go Up</li>
+                    <li>Enter Room</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Subway Token, Unloaded Suppressed .45,
+                      VisorCortex - LordsofKarma <br />
+                      <b>Loadout:</b> Unloaded Suppressed .45, VisorCortex -
+                      LordsofKarma, Gas Mask (auto)
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path3">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path3-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path3-collapse"
+                >
+                  Sector 1 - Path #3
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path3-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path3"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Climb Ladder</li>
+                    <li>Well Lit Door</li>
+                    <li>Head Down Stairs</li>
+                    <li>Sneak Behind Claw</li>
+                    <li>Assassinate Claw</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Subway Token, Unloaded Suppressed .45
+                      <br />
+                      <b>Loadout:</b> Unloaded Suppressed .45, Modified
+                      Scar-H</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path4">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path4-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path4-collapse"
+                >
+                  Sector 1 - Path #4
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path4-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path4"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Climb Ladder</li>
+                    <li>Sneak Upstairs</li>
+                    <li>Rush Claw</li>
+                    <li>Walk Straight</li>
+                    <li>Climb Hatch</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Subway Token, Modified AK-Variant <br />
+                      <b>Loadout:</b> Modified AK-Variant, 7.62 Ammo
+                      (auto)</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path5">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path5-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path5-collapse"
+                >
+                  <b>Sector 1 - Path #5</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path5-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path5"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Continue Straight</li>
+                    <li>Cross Bridge</li>
+                    <li>Turn Left</li>
+                    <li>Rush the Door</li>
+                    <li>Tactical Slide</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Spent 7.62 casings <br />
+                      <b>Loadout:</b> Integrated Harness (auto)</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path6">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path6-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path6-collapse"
+                >
+                  <b>Sector 1 - Path #6</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path6-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path6"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Continue Straight</li>
+                    <li>Continue Straight</li>
+                    <li>Continue Straight</li>
+                    <li>Dive into opening</li>
+                    <li>Cross Narrow Path</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Spent 7.62 casings, Warm Bloody Wrap,
+                      Tactical Knife <br />
+                      <b>Loadout:</b> Tactical Knife, Modified G36c (auto)</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path7">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path7-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path7-collapse"
+                >
+                  Sector 1 - Path #7
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path7-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path7"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Climb Ladder</li>
+                    <li>Sneak Upstairs</li>
+                    <li>Rush Claw</li>
+                    <li>Strut Forward</li>
+                    <li>37" Vertical Leap</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Subway Token, Modified AK-Variant <br />
+                      <b>Loadout:</b> Modified AK-Variant</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path8">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path8-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path8-collapse"
+                >
+                  Sector 1 - Path #8
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path8-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path8"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Climb Ladder</li>
+                    <li>Sneak Upstairs</li>
+                    <li>Rush Claw</li>
+                    <li>Strut Forward</li>
+                    <li>Climb Hatch</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Subway Token, Modified AK-Variant <br /><b
+                        >Loadout:</b
+                      >
+                      Modified AK-Variant, 7.62 Ammo (auto)</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path9">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path9-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path9-collapse"
+                >
+                  <b>Sector 1 - Path #9</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path9-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path9"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Climb Ladder</li>
+                    <li>Sneak UpStairs</li>
+                    <li>Sneak Behind</li>
+                    <li>Rush The Claw</li>
+                    <li>Crawl Downstairs</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Subway Token <br /><b>Loadout:</b> Med Kit
+                      (auto)</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path9">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path10-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path10-collapse"
+                >
+                  Sector 1 - Path #10
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path10-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path10"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Climb Ladder</li>
+                    <li>Well Lit Door</li>
+                    <li>Head Down Stairs</li>
+                    <li>Sneak Behind Claw</li>
+                    <li>Hold Position</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Subway Token, Unloaded Suppressed .45
+                      <br /><b>Loadout:</b> Unloaded Suppressed .45, Broken
+                      Scar-H (auto)</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path9">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-path11-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-path11-collapse"
+                >
+                  Sector 1 - Path #11
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-path11-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-path11"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body">
+                  <ul class="path-timeline">
+                    <li>Continue Straight</li>
+                    <li>Continue Straight</li>
+                    <li>Enter First Tunnel</li>
+                    <li>Mount Ladder</li>
+                    <li>Climb Up</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span
+                      ><b>Found:</b> Spent 7.62 Casings, Warm Bloody Wrap, Cold
+                      Bloody Wrap, Lower Rusty Ladder Rung <br />
+                      <b>Loadout:</b> Bloody Bat (auto)</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector1-path9">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector1-paths-explained-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector1-paths-explained-collapse"
+                >
+                  Sector 1 - Paths Explained
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector1-paths-explained-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector1-paths-explained"
+                data-bs-parent="#ezmode-sector1-accordion"
+              >
+                <div class="accordion-body text-center">
+                  <a
+                    href="https://cdn.discordapp.com/attachments/920086122980319293/928818952904249415/sector1picpathsclues.png"
+                    target="_blank"
+                    rel="noopener"
+                    style="text-decoration: none"
+                  >
+                    <figure class="figure">
+                      <img
+                        src="https://cdn.discordapp.com/attachments/920086122980319293/928818952904249415/sector1picpathsclues.png"
+                        class="figure-img img-fluid rounded"
+                        alt=""
+                        loading="lazy"
+                      />
+                      <figcaption class="figure-caption text-center">
+                        <a
+                          href="https://discord.com/channels/918034587966378117/920086122980319293/928818953755713596"
+                          >@HumanLord</a
+                        >
+                      </figcaption>
+                    </figure>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="sectortwo">
+
+      <!-- SECTOR 2 -->
+      <!-- ////////////////////////////// -->
+      <div class="row">
+        <!-- Sector 2 explained -->
+          <div class="col-md-6 col-xs-8">
+            <h3>Sector 2</h3>
+            <h6><em>Required: VisorCortex - LordsofKarma (Sector 1.2)</em></h6>
+            <p>Congrats, you made it past the first sector. Many have sacrificed themselves for the cause and the long revive time. Pay your respects and proceed.</p>
+            <p>Pay close attention to the needs of the sector and path before proceeding. Looting in the wrong place results in instant death.</p>
+            <h3>Instructions:</h3>
+            <ul>
+              <li>Check your loadout:
+                <em><strong>
+                  <span id="copypast" onclick="copied()">
+                     m:\loadout
+                  </span>
+                  <i class="bi bi-clipboard"></i>
+                </strong></em>
+              </li>
+              <li>Cross-reference your loadout with the <a href="https://docs.google.com/spreadsheets/d/1ay2wTeiwBPRDC1OLCCyraDSBrp5YwNPP_Pp5T_0N5pk/edit?usp=sharing">spreadsheet</a></li>            
+              <li>DM the bot:
+                <em><strong>
+                  <span id="copypast" onclick="copied()">
+                     m:\sector2
+                  </span>
+                  <i class="bi bi-clipboard"></i>
+                </strong></em>
+              </li>
+              <li>DM the bot:
+                <em><strong>
+                  <span id="copypast" onclick="copied()">
+                     m:\startmission
+                  </span>
+                  <i class="bi bi-clipboard"></i>
+                </strong></em>
+              </li>
+              <li>Click the green check to start the mission.</li>
+              <li>React with each button to complete the sector.</li>
+            </ul>
+          </div>
+          <!-- Sector 2 paths -->
+          <div class="col-md-6 col-xs-8">
+            <div class="accordion accordion-flush" id="ezmode-sector2-accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="ezmode-sector2-path1">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ezmode-sector2-path1-collapse"
+                    aria-expanded="false"
+                    aria-controls="ezmode-sector2-path1-collapse"
+                  >
+                    <b>Sector 2 - Path #1</b>
+                  </button>
+                </h2>
+                <div
+                  id="ezmode-sector2-path1-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ezmode-sector2-path1"
+                  data-bs-parent="#ezmode-sector2-accordion"
+                >
+                  <div class="accordion-body">
+                    <div class="alert alert-warning fs-14" role="alert">
+                      <i
+                        >Need: VisorCortex - LordsofKarma, Modified G36c (S1P6),
+                        Suppressed .45 & Gas Mask (S1P2)</i
+                      >
+                    </div>
+                    <ul class="path-timeline">
+                      <li>Loot (.45 Rounds)</li>
+                      <li>Move to Escalators</li>
+                      <li class="dont-loot">
+                        Ascend on Left <b>(Don't loot)</b>
+                      </li>
+                      <li class="dont-loot">Engage Threat <b>(Don't loot)</b></li>
+                      <li>Continue Straight</li>
+                      <li>Loot (.45 Ammo, Supressed .45)</li>
+                      <li>Engage Nearest Duo <b>(Need Suppressed .45)</b></li>
+                      <li>Loot (7.62 Ammo)</li>
+                      <li>Engage Second Duo</li>
+                      <li>Loot (7.62 Ammo)</li>
+                      <li>Push Right Elevator</li>
+                    </ul>
+                    <div class="alert alert-success fs-14" role="alert">
+                      <span
+                        ><b>Found:</b> .45 Rounds, Suppressed .45, .45 Ammo, 7.62
+                        Ammo x2 <br /><b>Loadout:</b> Suppressed .45, .45 Rounds,
+                        .45 Ammo</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="ezmode-sector2-path2">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ezmode-sector2-path2-collapse"
+                    aria-expanded="false"
+                    aria-controls="ezmode-sector2-path2-collapse"
+                  >
+                    Sector 2 - Path #2
+                  </button>
+                </h2>
+                <div
+                  id="ezmode-sector2-path2-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ezmode-sector2-path2"
+                  data-bs-parent="#ezmode-sector2-accordion"
+                >
+                  <div class="accordion-body">
+                    <div class="alert alert-warning fs-14" role="alert">
+                      <i
+                        >Need: VisorCortex - LordsofKarma, Modified G36c (S1P6),
+                        Suppressed .45 & Gas Mask (S1P2)</i
+                      >
+                    </div>
+                    <ul class="path-timeline">
+                      <li>Loot (.45 Rounds)</li>
+                      <li>Move to Escalators</li>
+                      <li class="dont-loot">
+                        Ascend on Left <b>(Don't loot)</b>
+                      </li>
+                      <li class="dont-loot">Engage Threat <b>(Don't loot)</b></li>
+                      <li>Continue Straight</li>
+                      <li>Loot (.45 Ammo, Supressed .45)</li>
+                      <li>Engage Nearest Duo <b>(Need Suppressed .45)</b></li>
+                      <li>Loot (7.62 Ammo)</li>
+                      <li>Engage Second Duo</li>
+                      <li>Loot (7.62 Ammo)</li>
+                      <li>Push Left Elevator</li>
+                    </ul>
+                    <div class="alert alert-success fs-14" role="alert">
+                      <span
+                        ><b>Found:</b> .45 rounds, Suppressed .45, .45 Ammo, 7.62
+                        Ammo <br />
+                        <b>Loadout:</b> Suppressed .45, .45 Rounds, .45 Ammo, 7.62
+                        Ammo x2</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="ezmode-sector2-path3">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ezmode-sector2-path3-collapse"
+                    aria-expanded="false"
+                    aria-controls="ezmode-sector2-path3-collapse"
+                  >
+                    <b>Sector 2 - Path #3</b>
+                  </button>
+                </h2>
+                <div
+                  id="ezmode-sector2-path3-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ezmode-sector2-path3"
+                  data-bs-parent="#ezmode-sector2-accordion"
+                >
+                  <div class="accordion-body">
+                    <div class="alert alert-warning fs-14" role="alert">
+                      <i
+                        >Need: VisorCortex - LordsofKarma, Suppressed .45 & Gas
+                        Mask (S1P2)</i
+                      >
+                    </div>
+                    <ul class="path-timeline">
+                      <li>Loot (.45 Rounds)</li>
+                      <li class="dont-loot">
+                        Check Guild Shops <b>(Don't loot)</b>
+                      </li>
+                      <li class="dont-loot">Bash Lock <b>(Don't loot)</b></li>
+                      <li class="dont-loot">Rush Stairs <b>(Don't loot)</b></li>
+                      <li>Engage Top Floor</li>
+                      <li>Loot (V7 Sniper)</li>
+                      <li>Engage Distant Target <b>(Need V7 Sniper)</b></li>
+                      <li>Flank Around</li>
+                      <li>Loot (VisorCortex - Moonlight)</li>
+                      <li>Helicopter Extraction</li>
+                    </ul>
+                    <div class="alert alert-success fs-14" role="alert">
+                      <span
+                        ><b>Found:</b> .45 Rounds, V7 Sniper Rifle, VisorCortex
+                        codename: Moonlight <br />
+                        <b>Loadout:</b> V7 Sniper Rifle, VisorCortex - Moonlight,
+                        .45 Rounds, .45 Ammo</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="ezmode-sector2-path4">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#ezmode-sector2-path4-collapse"
+                    aria-expanded="false"
+                    aria-controls="ezmode-sector2-path4-collapse"
+                  >
+                    Sector 2 - Path #4
+                  </button>
+                </h2>
+                <div
+                  id="ezmode-sector2-path4-collapse"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="ezmode-sector2-path4"
+                  data-bs-parent="#ezmode-sector2-accordion"
+                >
+                  <div class="accordion-body">
+                    <div class="alert alert-warning fs-14" role="alert">
+                      <i
+                        >Need: VisorCortex - LordsofKarma, Modified G36c (S1P6),
+                        Suppressed .45 & Gas Mask (S1P2)</i
+                      >
+                    </div>
+                    <ul class="path-timeline">
+                      <li>Loot (.45 Rounds)</li>
+                      <li>Move to Escalators</li>
+                      <li class="dont-loot">
+                        Ascend on Left <b>(Don't loot)</b>
+                      </li>
+                      <li class="dont-loot">Engage Threat <b>(Don't loot)</b></li>
+                      <li>Continue Straight</li>
+                      <li>Loot (.45 Ammo, Supressed .45)</li>
+                      <li>Engage Nearest Duo <b>(Need Suppressed .45)</b></li>
+                      <li>Loot (7.62 Ammo)</li>
+                      <li>Hold Position</li>
+                    </ul>
+                    <div class="alert alert-success fs-14" role="alert">
+                      <span
+                        ><b>Found:</b> .45 rounds, Suppressed .45, .45 Ammo, 7.62
+                        Ammo <br />
+                        <b>Loadout:</b> Suppressed .45, .45 Rounds, .45 Ammo, 7.62
+                        Ammo</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <hr id="sectorfour">
+
+        <!-- SECTOR 4 -->
+        <!-- ////////////////////////////// -->
+      <div class="row">
+        <div class="col-md-6 col-xs-8">
+          <h3>Sector 4</h3>
+          <h6><em>Required: Visor Cortex Nikolai (Sector 1.1)</em></h6>
+          <p>Same as before: <em>pay close attention to the needs of the sector and path before proceeding.</em> Don't loot where you're not supposed to. Not all paths have been recorded.</p>
+          <p>You are able to go back to Sector 1 and Sector 2 for more loot. Make sure you survive. Reviving only brings you back and Space Bob needs the tacos.</p>
+          <h3>Instructions:</h3>
+          <ul>
+            <li>Check your loadout:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\loadout
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>Cross-reference your loadout with the <a href="https://docs.google.com/spreadsheets/d/1ay2wTeiwBPRDC1OLCCyraDSBrp5YwNPP_Pp5T_0N5pk/edit?usp=sharing">spreadsheet</a></li>
+            <li>Check your loadout AGAIN:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\loadout
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\sector4
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\startmission
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>Click the green check to start the mission.</li>
+            <li>React with each button to complete the sector.</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-xs-8">
+          <div class="accordion accordion-flush" id="ezmode-sector4-accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector4-path1">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector4-path1-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector4-path1-collapse"
+                >
+                  <b>Sector 4 - Path #1</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector4-path1-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector4-path1"
+                data-bs-parent="#ezmode-sector4-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i
+                      >Need: Suppressed .45 (S2P2), .45 ammo (S2P1), VisorCotex
+                      Nikolai (S1P1), V7Sniper (S2P3), Integrated Harness
+                      (S1P5)</i
+                    >
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Loot (Discarded VisorCortex)</li>
+                    <li>Left Between Server Rack</li>
+                    <li>Left Around Server Row</li>
+                    <li>Disable 402</li>
+                    <li>Loot (Lock 2 Codex)</li>
+                    <li>Downstairs</li>
+                    <li>Engage Claw</li>
+                    <li>Bound Cover Across</li>
+                    <li>Bound Cover to Claw</li>
+                    <li>Loot (Suppressed G36)</li>
+                    <li>Left Console</li>
+                    <li>Disable 736</li>
+                    <li>Loot (Lock 4 Codex)</li>
+                    <li>Right Console</li>
+                    <li>Disable 911</li>
+                    <li>Disable 598</li>
+                    <li>Loot (Lock 3 Codex)</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found:</b> Discarded VisorCortex, Lock 2 Codex,
+                      Suppressed G36c, Lock 3 Codex, Lock 4 Codex <br />
+                      <b>Loadout:</b> Suppressed G36c, Lock 2 Codex, Lock 3
+                      Codex, Lock 4 Codex</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector4-path2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector4-path2-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector4-path2-collapse"
+                >
+                  Sector 4 - Path #2
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector4-path2-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector4-path2"
+                data-bs-parent="#ezmode-sector4-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i
+                      >Need: Suppressed .45 (S1P3), .45 ammo (S2P1), VisorCotex
+                      Nikolai (S1P1), V7Sniper (S2P3), Integrated Harness
+                      (S1P5)</i
+                    >
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Loot (Discarded VisorCortex)</li>
+                    <li>Examine Lit Console</li>
+                    <li>Disable 114</li>
+                    <li>Loot (Lock 1 Codex)</li>
+                    <li>Hold at Pods</li>
+                    <li>Hold Position</li>
+                    <li>Push Exit Stairs</li>
+                    <li>Skyhook Exit</li>
+                    <li>Prone</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found:</b> Discarded VisorCortex, Lock 1 Codex <br />
+                      <b>Loadout:</b> Lock 1 Codex</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector4-path3">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector4-path3-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector4-path3-collapse"
+                >
+                  <b>Sector 4 - Path #3</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector4-path3-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector4-path3"
+                data-bs-parent="#ezmode-sector4-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i
+                      >Need: Suppressed .45 (S1P3), .45 ammo (S2P1), VisorCotex
+                      Nikolai (S1P1), V7Sniper (S2P3), Integrated Harness
+                      (S1P5)</i
+                    >
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Loot (Discarded VisorCortex)</li>
+                    <li>Examine Lit Console</li>
+                    <li>Disable 114</li>
+                    <li>Loot (Lock 1 Codex)</li>
+                    <li>Hold at Pods</li>
+                    <li>Hold Position</li>
+                    <li>Push Exit Stairs</li>
+                    <li>Hangar Exit</li>
+                    <li>Loot (VisorCortex - AngelxThanatos)</li>
+                    <li>Continue Up</li>
+                    <li>Engage Far Left</li>
+                    <li>Launch Jet</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found:</b> Discarded VisorCortex, Lock 1 Codex,
+                      VisorCortex - AngelxThanatos <br />
+                      <b>Loadout:</b> Lock 1 Codex, VisorCortex -
+                      AngelxThanatos</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        
+      </div>
+
+      <hr id="sectorthree">
+
+      <!-- SECTOR 3 -->
+      <!-- ////////////////////////////// -->
+      <div class="row">     
+        <div class="col-md-6 col-xs-8">
+            <h3>Sector 3</h3>
+            <h6><em>Required: Moonlight Visor Cortex (Sector 2.1)</em></h6>
+            <div class="alert alert-success fs-14" role="alert">
+              <p><em>All three routes are 100% safe - but you can only do one</em></p>
+              <h6>MAKE SURE TO LOOT RIGHT AWAY TO GET THE SECTOR 6 CORTEX</h6>
+            </div>
+          <p>You are only able to choose ONE of the 3 available paths. Choose wisely. The future of your choice has not yet been revealed...</p>
+          <h3>Instructions:</h3>
+          <ul>
+            <li>Check your loadout:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\loadout
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li><li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\sector3
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\startmission
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>Click the green check to start the mission.</li>
+            <li>React with each button to complete the sector.</li>
+          </ul>
+          <div class="alert alert-warning fs-14" role="alert">                
+                <h6>LOOT THE FIRST ROOM FOR THE SECTOR 6 CORTEX</h6>
+          </div>
+        </div>   
+        <div class="col-md-6 col-xs-8">
+          <div class="accordion accordion-flush" id="ezmode-sector3-accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector3-path1">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector3-path1-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector3-path1-collapse"
+                >
+                  <b>Sector 3 - Path #1 - Violence</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector3-path1-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector3-path1"
+                data-bs-parent="#ezmode-sector3-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    <b>Always</b> loot! 100% safe but you can only do once.
+                  </div>
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i>Need: VisorCortex - Moonlight (S2P3)</i>
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Loot (Insured VisorCortex SOLID)</li>
+                    <li>Violence</li>
+                    <li>Cut Left</li>
+                    <li>Loot (Insured Heavy Combat Shotgun)</li>
+                    <li>Push Straight</li>
+                    <li>Engage</li>
+                    <li>Loot (Wingsuit, Insured Marksman Rifle)</li>
+                    <li>Exit Facility</li>
+                    <li>Loot (Insured Proximity Tracker)</li>
+                    <li>Leap Off Tower</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found/Loadout:</b> Insured VisorCortex SOLID, Insured
+                      Heavy Combat Shotgun, Wingsuit, Insured K19 Marksman
+                      Rifle, Insured Proximity Tracker
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector3-path2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector3-path2-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector3-path2-collapse"
+                >
+                  <b>Sector 3 - Path #2 - Speed</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector3-path2-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector3-path2"
+                data-bs-parent="#ezmode-sector3-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    <b>Always</b> loot! 100% safe but you can only do once.
+                  </div>
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i>Need: VisorCortex - Moonlight (S2P3)</i>
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Loot (Insured VisorCortex SOLID)</li>
+                    <li>Speed</li>
+                    <li>Loot (Insured M-99 Assault Rifle)</li>
+                    <li>Sprint Straight</li>
+                    <li>Check Right</li>
+                    <li>Loot (Insured HDI Flash Grenade)</li>
+                    <li>Sprint</li>
+                    <li>Loot (Insured Suppressed V7 Sniper)</li>
+                    <li>Third Party Outside</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found/Loadout:</b> Insured M-99 Assault Rifle, Insured
+                      Type-95 RPG (auto), Insured HDI Flash Grenade, Insured
+                      Suppressed V7 Sniper</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector3-path3">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector3-path3-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector3-path3-collapse"
+                >
+                  <b>Sector 3 - Path #3 - Momentum</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector3-path3-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector3-path3"
+                data-bs-parent="#ezmode-sector3-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    <b>Always</b> loot! 100% safe but you can only do once.
+                  </div>
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i>Need: VisorCortex - Moonlight (S2P3)</i>
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Loot (Insured VisorCortex SOLID)</li>
+                    <li>Momentum</li>
+                    <li>Loot (Insured M-99 Assault Rifle)</li>
+                    <li>Sprint to Hallway</li>
+                    <li>Engage Second Duo</li>
+                    <li>Loot (Insured Modified M249 SAW)</li>
+                    <li>Push Into Next Room</li>
+                    <li>Loot (Insured HDS Frag Grenade)</li>
+                    <li>VSM</li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found/Loadout:</b> Insured Tac-X Machine Pistol,
+                      Insured Modified M249 SAW, Insured HDS Frag Grenade</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <hr id="sectorfive">
+
+      <!-- SECTOR 5 -->
+      <!-- ////////////////////////////// -->
+      <div class="row">
+        <div class="col-md-6 col-xs-8">
+          <h3>Sector 5</h3>
+          <h6><em>Required: Visor Cortex AngelxThanatos (Sector 4.2)</em></h6>
+          <p>Call us Pinocchio: what you chose for <strong>Sector 3</strong> applies here. Depending on which path you chose for S3, do that path for this Sector.</p>
+          <p>You are <em>still</em> able to go back to Sector 1, Sector 2, and Sector 4 for more loot. Make sure you survive. Reviving only brings you back and Space Bob needs the tacos.</p>
+          <h3>Instructions:</h3>
+          <ul>
+            <li>Check your loadout:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\loadout
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li><li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\sector5
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\startmission
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>Click the green check to start the mission.</li>
+            <li>React with each button to complete the sector.</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-xs-8">
+          <div class="accordion accordion-flush" id="ezmode-sector5-accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector5-path1">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector5-path1-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector5-path1-collapse"
+                >
+                  <b>Sector 5 - Path #1 - Violence</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector5-path1-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector5-path1"
+                data-bs-parent="#ezmode-sector5-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    If you selected <b>Violence</b>.
+                  </div>
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i>Need: VisorCortex - AngelxThanatos (S4P3)</i>
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Push Forward</li>
+                    <li>Shoot</li>
+                    <li>Loot (Insured VisorCortex Moonlight)</li>
+                    <li>Forward</li>
+                    <li><i>Eclipsed</i></li>
+                    <li>Push to Furthest Cover</li>
+                    <li>Shoot</li>
+                    <li>Loot (Insured VisorCortex Nikolai)</li>
+                    <li>Forward</li>
+                    <li><i>Burning</i></li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found/Loadout:</b> Insured VisorCortex Moonlight,
+                      Insured VisorCortex Nikolai
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector5-path2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector5-path2-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector5-path2-collapse"
+                >
+                  <b>Sector 5 - Path #2 - Speed</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector5-path2-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector5-path2"
+                data-bs-parent="#ezmode-sector5-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    If you selected <b>Speed</b>.
+                  </div>
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i>Need: VisorCortex - AngelxThanatos (S4P3)</i>
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Push Forward</li>
+                    <li>Shoot</li>
+                    <li>Loot (Insured VisorCortex AngelxThanatos)</li>
+                    <li>Forward</li>
+                    <li><i>Scribed</i></li>
+                    <li>Push to Furthest Cover</li>
+                    <li>Shoot</li>
+                    <li>Loot (Insured VisorCortex LordsOfKarma)</li>
+                    <li>Forward</li>
+                    <li><i>Golconda</i></li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found/Loadout:</b> Insured VisorCortex AngelxThanatos,
+                      Insured VisorCortex LordsOfKarma
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector5-path3">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector5-path3-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector5-path3-collapse"
+                >
+                  <b>Sector 5 - Path #3 - Momentum</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector5-path3-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector5-path3"
+                data-bs-parent="#ezmode-sector5-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    If you selected <b>Momentum</b>.
+                  </div>
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i>Need: VisorCortex - AngelxThanatos (S4P3)</i>
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Push Forward</li>
+                    <li>Shoot</li>
+                    <li>Loot (Insured VisorCortex Solid)</li>
+                    <li>Forward</li>
+                    <li><i>Soul</i></li>
+                    <li>Push to Furthest Cover</li>
+                    <li>Shoot</li>
+                    <li>Loot (Insured VisorCortex RatBoy)</li>
+                    <li>Forward</li>
+                    <li><i>Path</i></li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found/Loadout:</b> Insured VisorCortex Solid, Insured
+                      VisorCortex RatBoy
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="sectorsix">
+
+      <!-- SECTOR 6 -->
+      <!-- ////////////////////////////// -->
+      <div class="row">
+        <div class="col-md-6 col-xs-8">
+          <h3>Sector 6</h3>
+          <h6><em>Required: Visor Cortex Solid (Sector 3)</em></h6>
+          <h6><em>Weapon Requirements:
+            <ol>
+              <li>G36C (Sector 1.4)</li>
+              <li>X-1 Assault Rifle (this sector)</li>
+              <li>6-IR Grenade Launcher (this sector)</li>
+
+            </ol>
+          </em></h6>
+          <p>All right y'all, this is it. It's been a pleasure.</p>
+          <h3>Instructions:</h3>
+          <ul>
+            <li>Check your loadout:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\loadout
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>Cross-reference your loadout with the <a href="https://docs.google.com/spreadsheets/d/1ay2wTeiwBPRDC1OLCCyraDSBrp5YwNPP_Pp5T_0N5pk/edit?usp=sharing">spreadsheet</a></li>
+            <li>Check your loadout AGAIN:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\loadout
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\sector6
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>DM the bot:
+              <em><strong>
+                <span id="copypast" onclick="copied()">
+                   m:\startmission
+                </span>
+                <i class="bi bi-clipboard"></i>
+              </strong></em>
+            </li>
+            <li>Click the green check to start the mission.</li>
+            <li>React with each button to complete the sector.</li>
+          </ul>
+          <p>Make sure you go back and loot previous sectors (except Sector 3 & 5) for the necessary loot.
+          </p>
+
+        </div>  
+        <div class="col-md-6 col-xs-8">
+          <div class="accordion accordion-flush" id="ezmode-sector6-accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector6-path1">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector6-path1-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector6-path1-collapse"
+                >
+                  <b>Sector 6 - CC.PROTOCOL COMPLETE</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector6-path1-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector6-path1"
+                data-bs-parent="#ezmode-sector6-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-info fs-14" role="alert">
+                    You must have all 3 required weapons. If you can't start the
+                    sector because you don't have SOLID's VisorCortex, type:
+                    <b>M:\GiveSOLID</b>.
+                  </div>
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <i
+                      >Need: Insured VisorCortex - SOLID (S3), Modified G36c
+                      (S1P6), X-1 Assault Rifle (S6), 6-IR Grenade Launcher
+                      (S6)</i
+                    >
+                  </div>
+                  <ul class="path-timeline">
+                    <li>Loot (X-1 Assault Rifle)</li>
+                    <li>Slide Under Left Pipe</li>
+                    <li>Loot (6-IR Grenade Launcher)</li>
+                    <li class="dont-loot">
+                      Stick to Ground Cover (Don't loot)
+                    </li>
+                    <li>Kick it</li>
+                    <li>Loot (VisorCortex Bacon, Bloody Note)</li>
+                    <li>Relocate</li>
+                    <li class="dont-loot">Move Towards Pipe (Don't loot)</li>
+                    <li class="dont-loot">Forward (Don't loot)</li>
+                    <li class="dont-loot">Engage FourZeroTwo (Don't loot)</li>
+                    <li class="dont-loot">Boom (Don't loot)</li>
+                    <li class="dont-loot">Shoot (Don't loot)</li>
+                    <li class="dont-loot">
+                      Chase DrDisrespect and Deez (Don't loot)
+                    </li>
+                    <li class="dont-loot">Engage Deez (Don't loot)</li>
+                    <li class="dont-loot">Launch Grenade (Don't loot)</li>
+                    <li class="dont-loot">
+                      Bound Cover After Them (Don't loot)
+                    </li>
+                    <li class="dont-loot">Engage DrDisRespect (Don't loot)</li>
+                    <li>Boom</li>
+                    <li>Shoot</li>
+                    <li>Push Forward</li>
+                    <li>Push Forward</li>
+                    <li>Extract</li>
+                    <li><b>CC.PROTOCOL COMPLETE</b></li>
+                  </ul>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      <b>Found:</b> X-1 Assault Rifle, 6-IR Grenade Launcher,
+                      VisorCortex Bacon, Bloody Note
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-sector6-path2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector6-path2-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector6-path2-collapse"
+                >
+                  <b>Sector 6 - Flowchart</b>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector6-path2-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-sector6-path2"
+                data-bs-parent="#ezmode-sector6-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="accordion-body text-center">
+                    <a
+                      href="./img/sector6-flowchart.png"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <figure class="figure">
+                        <picture>
+                          <source
+                            srcset="./img/sector6-flowchart.webp"
+                            type="image/webp"
+                          />
+                          <source
+                            srcset="./img/sector6-flowchart.png"
+                            type="image/png"
+                          />
+                          <img
+                            width="460"
+                            height="260"
+                            src="./img/sector6-flowchart.png"
+                            class="figure-img img-fluid rounded"
+                            alt=""
+                          />
+                        </picture>
+                        <figcaption class="figure-caption text-center">
+                          <a
+                            href="https://discord.com/channels/918034587966378117/920086122980319293/945079212874821662"
+                            >@Xernalt</a
+                          >
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- /ez mode -->
+    <!-- ////////////////////////////////////////////////////-->
+
+    <!-- FAQ for those who are new -->
+      <hr id="faq">
+
+      <!-- FAQ -->
+      <!-- ////////////////////////////// -->
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Got some questions?</h2>
+          <p>We got some answers</p>
+          
+        </div>
+        <div class="col-md-6">
+          <div class="accordion accordion-flush" id="ezmode-faq-accordion">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-faq-q7">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector4-q7-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector4-q7-collapse"
+                >
+                  <strong>HELP!!1!!!! I DIED. WHAT DO I DO.</strong>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector4-q7-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-faq-q7"
+                data-bs-parent="#ezmode-faq-accordion"
+              >
+                <div class="accordion-body">
+                  <p><em>m:\revive</em></p>
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <span>Deaths in this game punish us all and affect the respawn time. Try to survive.</span >
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-faq-q1">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector4-q1-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector4-q1-collapse"
+                >
+                  <strong>Why not 1, 2, 3, 4, 5.......6?</strong>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector4-q1-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-faq-q1"
+                data-bs-parent="#ezmode-faq-accordion"
+              >
+                <div class="accordion-body">
+                  <p>No idea. It's probably lore.</p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-faq-q4">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector4-q4-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector4-q4-collapse"
+                >
+                  <strong>What is "Sector 1.1"?</strong>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector4-q4-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-faq-q4"
+                data-bs-parent="#ezmode-faq-accordion"
+              >
+                <div class="accordion-body">
+                  <p>It's Sector 1, <strong>PATH</strong> #1</p>
+                  <p>Similarly, "Sector 4.2" is Sector 4, Path #2. And so on and so forth... </p>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-faq-q5">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-faq-q5-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-faq-q5-collapse"
+                >
+                  <strong>My airdrop ### was under 500. What now?</strong>
+                </button>
+              </h2>
+              <div
+                id="ezmode-faq-q5-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-faq-q5"
+                data-bs-parent="#ezmode-faq-accordion"
+              >
+                <div class="accordion-body">
+                  <p>Congratulations. You prequalified for a Founder's Pass.<br>
+                    See <strong>AngelxThanatos</strong>'s pinned message in <strong>#conspiracy-theory-clues</strong> confirming this.</p>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span> <em>Nope, if you weren't one of the 500 who pre-qualified for an airdrop, whitelists will be based on your application. We want people who really care about the game as we enter this new territory, so that's why we're having you apply instead of just take your money. NOTE: even if you got an airdrop message, fill out the application anyway. It will help us get to know our gamers better!!</em> </span >
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-faq-q6">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector4-q6-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector4-q6-collapse"
+                >
+                  <strong>Who is Space Bob?</strong>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector4-q6-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-faq-q6"
+                data-bs-parent="#ezmode-faq-accordion"
+              >
+                <div class="accordion-body">
+                  <p><em>a space, named bob. :wave:</em></p>
+                  <p>(make sure you give him tacos)</p> 
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-faq-q2">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-faq-q2-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-faq-q2-collapse"
+                >
+                  <strong>Question w/ yellow alert</strong>
+                </button>
+              </h2>
+              <div
+                id="ezmode-faq-q2-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-faq-q2"
+                data-bs-parent="#ezmode-faq-accordion"
+              >
+                <div class="accordion-body">
+                  <div class="alert alert-warning fs-14" role="alert">
+                    <em>yellow alert text</em>
+                  </div>
+                  <p>Got you an answer here</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-faq-q3">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-faq-q3-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-faq-q3-collapse"
+                >
+                  <strong>Question w/ green alert</strong>
+                </button>
+              </h2>
+              <div
+                id="ezmode-faq-q3-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-faq-q3"
+                data-bs-parent="#ezmode-faq-accordion"
+              >
+                <div class="accordion-body">
+                  <p>Got you an answer here</p>
+                  <div class="alert alert-success fs-14" role="alert">
+                    <span>
+                      green alert text
+                      </span >
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="ezmode-faq-q4">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#ezmode-sector4-q4-collapse"
+                  aria-expanded="false"
+                  aria-controls="ezmode-sector4-q4-collapse"
+                >
+                  <strong>Question -normal</strong>
+                </button>
+              </h2>
+              <div
+                id="ezmode-sector4-q4-collapse"
+                class="accordion-collapse collapse"
+                aria-labelledby="ezmode-faq-q4"
+                data-bs-parent="#ezmode-faq-accordion"
+              >
+                <div class="accordion-body">
+                  <p>Got you an answer here</p>                  
+                </div>
+              </div>
+            </div> -->
+
+          </div>
+      </div>
+        
+      </div>
+
+    <!-- /FAQ -->
+
+    <!-- /footer -->
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <script>
+      function checkBrowserCompat() {
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+        var trident = ua.indexOf("Trident/");
+        if (msie > 0 || trident > 0) {
+          console.log("IE detected.");
+          window.location.replace("unsupported.html");
+        }
+      }
+
+      function copied() {
+        /* Get the text field */
+        var copyText = document.getElementById("copypast");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+         /* Copy the text inside the text field */
+        navigator.clipboard.writeText(copyText.value);
+
+        /* Alert the copied text */
+        alert("Copied the text: " + copyText.value);
+        console.log(copyText);
+        console.log("copied~");
+      }
+    </script>
+  </body>
+</html>

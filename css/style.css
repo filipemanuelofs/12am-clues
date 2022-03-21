@@ -245,3 +245,7 @@ img:hover {
 .symbol:hover {
   border-bottom: 1px solid #d9534f;
 }
+
+.steps {
+  margin: 30px auto;
+}

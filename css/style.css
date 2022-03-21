@@ -38,6 +38,11 @@ img:hover {
   border-radius: 5px;
 }
 
+#copypast {
+  background-color: Silver;
+  color:  DarkRed;
+}
+
 .final-checkpoint {
   width: 25px;
   height: 25px;
